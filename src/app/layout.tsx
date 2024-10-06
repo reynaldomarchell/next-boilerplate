@@ -38,8 +38,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Dashboard>{children}</Dashboard>
-          {/* <Landing>{children}</Landing> */}
+          {/* <Dashboard>{children}</Dashboard> */}
+          <Landing>{children}</Landing>
         </ThemeProvider>
       </body>
     </html>

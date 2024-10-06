@@ -27,9 +27,9 @@ export default function Footer() {
           <div className="flex flex-col justify-start gap-2 md:justify-end">
             <h2 className="flex text-gray-600 dark:text-gray-300">Follow Us</h2>
             <div className="flex gap-2 md:gap-4">
-              <FaFacebook size={24} />
               <FaLinkedin size={24} />
               <RiInstagramFill size={24} />
+              <FaFacebook size={24} />
             </div>
           </div>
         </div>
