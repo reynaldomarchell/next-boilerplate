@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Input } from "./ui/input";
+import { Input } from "../ui/input";
 import { IoCloseSharp, IoMenu } from "react-icons/io5";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import { MdLogout } from "react-icons/md";

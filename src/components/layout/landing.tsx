@@ -1,5 +1,5 @@
-import Footer from "../footer";
-import Navbar from "../navbar";
+import Footer from "./footer";
+import Navbar from "./navbar";
 
 export default function Landing({ children }: { children: React.ReactNode }) {
   return (
