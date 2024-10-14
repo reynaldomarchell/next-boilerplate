@@ -49,7 +49,10 @@ export default function Navbar() {
                   />
                   <p className="text-[16px] font-semibold">User</p>
                 </div>
-                <div className="flex items-center gap-2 text-[16px] font-semibold text-red-600 hover:cursor-pointer">
+                <div
+                  onClick={handleLogout}
+                  className="flex items-center gap-2 text-[16px] font-semibold text-red-600 hover:cursor-pointer"
+                >
                   <MdLogout />
                   <p>Logout</p>
                 </div>
